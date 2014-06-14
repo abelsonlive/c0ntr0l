@@ -1,7 +1,7 @@
 # x0xb0x c0ntr0l software #
 As the c0ntr0l software appears to be abandonware, here is an updated
 version of the code that I found on [Sourceforge][sf]. Nothing has been
-changed functionality wise, but I need to clean up some `true`s, `NULL`s
+changed functionality wise, but I need to clean up some `true`'s, `NULL`'s
 and import the wx widget library correctly.
 
 ## How to get it working ##
