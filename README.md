@@ -8,9 +8,9 @@ _adapted from [https://github.com/frak/c0ntr0l](https://github.com/frak/c0ntr0l)
 
 	- These include:
 
-		* The USB/Serial drivers that are correct for your system from the [FTDI website][http://www.ftdichip.com/Drivers/VCP.htm]( most likely 64-bit OS X)
+		* The USB/Serial drivers that are correct for your system from the [FTDI website](http://www.ftdichip.com/Drivers/VCP.htm) (most likely 64-bit OS X).
 
-		* The correct version of [the wxWidget libraries](http://sourceforge.net/projects/wxpython/files/wxPython/3.0.0.0/wxPython3.0-osx-3.0.0.0-cocoa-py2.7.dmg/download?use_mirror=iweb) for Mavericks from ( most likely 64-bit OS X)
+		* The correct version of [the wxWidget libraries](http://sourceforge.net/projects/wxpython/files/wxPython/3.0.0.0/wxPython3.0-osx-3.0.0.0-cocoa-py2.7.dmg/download?use_mirror=iweb) for Mavericks (most likely 64-bit OS X).
 
 
 2. Install additonal requirements:
