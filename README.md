@@ -15,15 +15,22 @@ _adapted from [https://github.com/frak/c0ntr0l](https://github.com/frak/c0ntr0l)
 
 2. Install additonal requirements:
 
+
 	brew install wxmac 
 	sudo pip install pyserial 
 
+
 3. Clone this repository
+
 
 	git clone https://github.com/abelsonlive/c0ntr0l.git
 
+
 4. Run `c0ntr0l` GUI
-	
+
+
 	cd c0ntr0l/
 	python c0ntr0l.py
+
+
 
