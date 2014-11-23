@@ -727,7 +727,7 @@ class MainWindow(wx.Frame):
                         
             
         elif event.GetId() == ID_X0XB0X_UPLOAD_FIRMWARE:
-            d = wxFileDialog(self, 'Choose a x0xb0x firmware file', style = wxOPEN, wildcard = "HEX files (*.hex)|*.hex|All files (*.*)|*.*")
+            d = wx.FileDialog(self, 'Choose a x0xb0x firmware file', style = wx.OPEN, wildcard = "HEX files (*.hex)|*.hex|All files (*.*)|*.*")
             d.ShowModal()
             if len(d.GetPath()) != 0:
                 try:
@@ -738,7 +738,7 @@ class MainWindow(wx.Frame):
                     errorDialog = wxMessageDialog(self,
                                                   message = 'The following exception occured while programming the flash memory on the x0xb0x:\n\nException: ' + str(e),
                                                   caption = 'Firmware Programming Error',
-                                                  style = wxOK)
+                                                  style = wx.OK)
                     errorDialog.ShowModal()
 
 
